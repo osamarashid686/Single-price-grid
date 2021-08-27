@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Karla', sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #e6eff6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price-card{
+  background-color: rgb(255, 255, 255);
+  width: 60%;
+  height: 65%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 270px;
+  box-shadow: 10px 10px 30px #cadceb;
+}
+.top-tab{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #ffffff;
+}
+.top-tab > h1{
+  margin-top: 50px;
+  color: #4ea4a6;
+  margin-left: 50px;
+}
+.top-tab > h2{
+  margin-top: 35px;
+  color: #bcdd3e;
+  margin-left: 50px;
+}
+.top-tab > p{
+  margin-top: 15px;
+  width: 550px;
+  line-height: 30px;
+  color: #acacb5;
+  margin-left: 50px;
+}
+.left-tab{
+  background-color: #2bb3b1;
+}
+.left-tab > h2{
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-weight: 400;
+}
+.left-tab > .top-p{
+  color: rgba(255, 255, 255, 0.651);
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.left-tab > p > b{
+  color: white;
+  font-size: 40px;
+  font-weight: 700px;
+  
+}
+.left-tab > .end-p{
+  color: white;
+  margin-top: 20px;
+  margin-left: 50px;
+  letter-spacing: 1px;
+}
+.left-tab > button{
+  padding: 15px;
+  width: 280px;
+  background-color: #bcdd3e;
+  color: white;
+  border: none;
+  box-shadow: 0px 15px 10px #26a2a0;
+  margin-left: 50px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.right-tab{
+  background-color: #4abebd;
+}
+.right-tab > h2{
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-weight: 500;
+}
+.right-tab > p{
+  color: rgba(255, 255, 255, 0.651);
+  margin-top: 25px;
+  width: 200px;
+  margin-left: 50px;
+  line-height: 25px;
+}
